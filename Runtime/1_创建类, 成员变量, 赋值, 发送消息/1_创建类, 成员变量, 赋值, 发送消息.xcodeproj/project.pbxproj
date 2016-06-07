@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79DE42201D0119BB002D81F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DE421F1D0119BB002D81F2 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79273CF31D050BB200836CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79DE430D1D011D7D002D81F2 /* 4. JSON转Model.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 792CD4AC1CFD973300623AD3;
+			remoteInfo = "4. JSON转Model";
+		};
+		79273DA31D055C2100836CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79273D9F1D055C2100836CCD /* extra-2. 重写系统协议方法.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 79273D161D0554EE00836CCD;
+			remoteInfo = "extra-2. 重写系统协议方法";
+		};
+		79273DA91D055C2600836CCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79273DA51D055C2600836CCD /* extra-3. 统一字体字号.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 79273D701D05574600836CCD;
+			remoteInfo = "extra-3. 统一字体字号";
+		};
+		79DE429F1D011ACA002D81F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79DE429B1D011AC9002D81F2 /* 2. 获取属性, 成员变量, 方法.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 79DE42811D011AC9002D81F2;
+			remoteInfo = "2. 获取属性, 成员变量, 方法";
+		};
+		79DE42E71D011C8C002D81F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79DE42E21D011C8C002D81F2 /* 3. Category, NSCoding.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 79DE42AD1D011B4F002D81F2;
+			remoteInfo = "3. Category, NSCoding";
+		};
+		79DE43171D011DE5002D81F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79DE43131D011DE5002D81F2 /* 5. 判断, 动态增加方法.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 798E52801CFEC215005EB03D;
+			remoteInfo = "5. 判断, 动态增加方法";
+		};
+		79DE43401D011E4E002D81F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79DE433C1D011E4E002D81F2 /* extra-1. 交换方法, 越界不Crash.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 79DE43221D011E4E002D81F2;
+			remoteInfo = "extra-1. 交换方法, 越界不Crash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79DE421A1D0119BB002D81F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79273D9F1D055C2100836CCD /* extra-2. 重写系统协议方法.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "extra-2. 重写系统协议方法.xcodeproj"; path = "../extra-2. 重写系统协议方法/extra-2. 重写系统协议方法.xcodeproj"; sourceTree = "<group>"; };
+		79273DA51D055C2600836CCD /* extra-3. 统一字体字号.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "extra-3. 统一字体字号.xcodeproj"; path = "../extra-3. 统一字体字号/extra-3. 统一字体字号.xcodeproj"; sourceTree = "<group>"; };
+		79DE421C1D0119BB002D81F2 /* 1_创建类, 成员变量, 赋值, 发送消息 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1_创建类, 成员变量, 赋值, 发送消息"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DE421F1D0119BB002D81F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79DE429B1D011AC9002D81F2 /* 2. 获取属性, 成员变量, 方法.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "2. 获取属性, 成员变量, 方法.xcodeproj"; path = "../2. 获取属性, 成员变量, 方法/2. 获取属性, 成员变量, 方法.xcodeproj"; sourceTree = "<group>"; };
+		79DE42E21D011C8C002D81F2 /* 3. Category, NSCoding.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "3. Category, NSCoding.xcodeproj"; path = "../3. Category, NSCoding/3. Category, NSCoding.xcodeproj"; sourceTree = "<group>"; };
+		79DE430D1D011D7D002D81F2 /* 4. JSON转Model.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "4. JSON转Model.xcodeproj"; path = "../4. JSON转Model, 基础原理/4. JSON转Model.xcodeproj"; sourceTree = "<group>"; };
+		79DE43131D011DE5002D81F2 /* 5. 判断, 动态增加方法.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "5. 判断, 动态增加方法.xcodeproj"; path = "../5. 判断, 动态增加方法/5. 判断, 动态增加方法.xcodeproj"; sourceTree = "<group>"; };
+		79DE433C1D011E4E002D81F2 /* extra-1. 交换方法, 越界不Crash.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "extra-1. 交换方法, 越界不Crash.xcodeproj"; path = "../extra-1. 交换方法, 越界不Crash/extra-1. 交换方法, 越界不Crash.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79DE42191D0119BB002D81F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79273CEE1D050BB200836CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79273CF41D050BB200836CCD /* 4. JSON转Model.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79273DA01D055C2100836CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79273DA41D055C2100836CCD /* extra-2. 重写系统协议方法.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79273DA61D055C2600836CCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79273DAA1D055C2600836CCD /* extra-3. 统一字体字号.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DE42131D0119BB002D81F2 = {
+			isa = PBXGroup;
+			children = (
+				79DE421E1D0119BB002D81F2 /* 1_创建类, 成员变量, 赋值, 发送消息 */,
+				79DE421D1D0119BB002D81F2 /* Products */,
+				79DE429B1D011AC9002D81F2 /* 2. 获取属性, 成员变量, 方法.xcodeproj */,
+				79DE42E21D011C8C002D81F2 /* 3. Category, NSCoding.xcodeproj */,
+				79DE430D1D011D7D002D81F2 /* 4. JSON转Model.xcodeproj */,
+				79DE43131D011DE5002D81F2 /* 5. 判断, 动态增加方法.xcodeproj */,
+				79DE433C1D011E4E002D81F2 /* extra-1. 交换方法, 越界不Crash.xcodeproj */,
+				79273D9F1D055C2100836CCD /* extra-2. 重写系统协议方法.xcodeproj */,
+				79273DA51D055C2600836CCD /* extra-3. 统一字体字号.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		79DE421D1D0119BB002D81F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79DE421C1D0119BB002D81F2 /* 1_创建类, 成员变量, 赋值, 发送消息 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DE421E1D0119BB002D81F2 /* 1_创建类, 成员变量, 赋值, 发送消息 */ = {
+			isa = PBXGroup;
+			children = (
+				79DE421F1D0119BB002D81F2 /* main.m */,
+			);
+			path = "1_创建类, 成员变量, 赋值, 发送消息";
+			sourceTree = "<group>";
+		};
+		79DE429C1D011AC9002D81F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79DE42A01D011ACA002D81F2 /* 2. 获取属性, 成员变量, 方法.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DE42E31D011C8C002D81F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79DE42E81D011C8C002D81F2 /* 3. Category, NSCoding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DE43141D011DE5002D81F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79DE43181D011DE5002D81F2 /* 5. 判断, 动态增加方法.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DE433D1D011E4E002D81F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79DE43411D011E4E002D81F2 /* extra-1. 交换方法, 越界不Crash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79DE421B1D0119BB002D81F2 /* 1_创建类, 成员变量, 赋值, 发送消息 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DE42231D0119BB002D81F2 /* Build configuration list for PBXNativeTarget "1_创建类, 成员变量, 赋值, 发送消息" */;
+			buildPhases = (
+				79DE42181D0119BB002D81F2 /* Sources */,
+				79DE42191D0119BB002D81F2 /* Frameworks */,
+				79DE421A1D0119BB002D81F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1_创建类, 成员变量, 赋值, 发送消息";
+			productName = "1_创建类, 成员变量, 赋值, 发送消息";
+			productReference = 79DE421C1D0119BB002D81F2 /* 1_创建类, 成员变量, 赋值, 发送消息 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79DE42141D0119BB002D81F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Vincent-Xu";
+				TargetAttributes = {
+					79DE421B1D0119BB002D81F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 79DE42171D0119BB002D81F2 /* Build configuration list for PBXProject "1_创建类, 成员变量, 赋值, 发送消息" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79DE42131D0119BB002D81F2;
+			productRefGroup = 79DE421D1D0119BB002D81F2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 79DE429C1D011AC9002D81F2 /* Products */;
+					ProjectRef = 79DE429B1D011AC9002D81F2 /* 2. 获取属性, 成员变量, 方法.xcodeproj */;
+				},
+				{
+					ProductGroup = 79DE42E31D011C8C002D81F2 /* Products */;
+					ProjectRef = 79DE42E21D011C8C002D81F2 /* 3. Category, NSCoding.xcodeproj */;
+				},
+				{
+					ProductGroup = 79273CEE1D050BB200836CCD /* Products */;
+					ProjectRef = 79DE430D1D011D7D002D81F2 /* 4. JSON转Model.xcodeproj */;
+				},
+				{
+					ProductGroup = 79DE43141D011DE5002D81F2 /* Products */;
+					ProjectRef = 79DE43131D011DE5002D81F2 /* 5. 判断, 动态增加方法.xcodeproj */;
+				},
+				{
+					ProductGroup = 79DE433D1D011E4E002D81F2 /* Products */;
+					ProjectRef = 79DE433C1D011E4E002D81F2 /* extra-1. 交换方法, 越界不Crash.xcodeproj */;
+				},
+				{
+					ProductGroup = 79273DA01D055C2100836CCD /* Products */;
+					ProjectRef = 79273D9F1D055C2100836CCD /* extra-2. 重写系统协议方法.xcodeproj */;
+				},
+				{
+					ProductGroup = 79273DA61D055C2600836CCD /* Products */;
+					ProjectRef = 79273DA51D055C2600836CCD /* extra-3. 统一字体字号.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				79DE421B1D0119BB002D81F2 /* 1_创建类, 成员变量, 赋值, 发送消息 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		79273CF41D050BB200836CCD /* 4. JSON转Model.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "4. JSON转Model.app";
+			remoteRef = 79273CF31D050BB200836CCD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		79273DA41D055C2100836CCD /* extra-2. 重写系统协议方法.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "extra-2. 重写系统协议方法.app";
+			remoteRef = 79273DA31D055C2100836CCD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		79273DAA1D055C2600836CCD /* extra-3. 统一字体字号.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "extra-3. 统一字体字号.app";
+			remoteRef = 79273DA91D055C2600836CCD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		79DE42A01D011ACA002D81F2 /* 2. 获取属性, 成员变量, 方法.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "2. 获取属性, 成员变量, 方法.app";
+			remoteRef = 79DE429F1D011ACA002D81F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		79DE42E81D011C8C002D81F2 /* 3. Category, NSCoding.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "3. Category, NSCoding.app";
+			remoteRef = 79DE42E71D011C8C002D81F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		79DE43181D011DE5002D81F2 /* 5. 判断, 动态增加方法.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "5. 判断, 动态增加方法.app";
+			remoteRef = 79DE43171D011DE5002D81F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		79DE43411D011E4E002D81F2 /* extra-1. 交换方法, 越界不Crash.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "extra-1. 交换方法, 越界不Crash.app";
+			remoteRef = 79DE43401D011E4E002D81F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79DE42181D0119BB002D81F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DE42201D0119BB002D81F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79DE42211D0119BB002D81F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79DE42221D0119BB002D81F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79DE42241D0119BB002D81F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79DE42251D0119BB002D81F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79DE42171D0119BB002D81F2 /* Build configuration list for PBXProject "1_创建类, 成员变量, 赋值, 发送消息" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DE42211D0119BB002D81F2 /* Debug */,
+				79DE42221D0119BB002D81F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DE42231D0119BB002D81F2 /* Build configuration list for PBXNativeTarget "1_创建类, 成员变量, 赋值, 发送消息" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DE42241D0119BB002D81F2 /* Debug */,
+				79DE42251D0119BB002D81F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79DE42141D0119BB002D81F2 /* Project object */;
+}
