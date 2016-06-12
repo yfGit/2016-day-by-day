@@ -64,6 +64,7 @@
 				79273D201D0554EF00836CCD /* ViewController.m */,
 				79273D3B1D05556500836CCD /* MyTextField.h */,
 				79273D3C1D05556500836CCD /* MyTextField.m */,
+				79273D221D0554EF00836CCD /* Main.storyboard */,
 				79273D191D0554EF00836CCD /* Supporting Files */,
 			);
 			path = "extra-2. 重写系统协议方法";
@@ -75,7 +76,6 @@
 				79273D1C1D0554EF00836CCD /* AppDelegate.h */,
 				79273D1D1D0554EF00836CCD /* AppDelegate.m */,
 				79273D1F1D0554EF00836CCD /* ViewController.h */,
-				79273D221D0554EF00836CCD /* Main.storyboard */,
 				79273D251D0554EF00836CCD /* Assets.xcassets */,
 				79273D271D0554EF00836CCD /* LaunchScreen.storyboard */,
 				79273D2A1D0554EF00836CCD /* Info.plist */,
@@ -307,6 +307,7 @@
 				79273D2F1D0554EF00836CCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

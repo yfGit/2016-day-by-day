@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  3. Category, NSCoding
+//  extra-4. 监听按钮点击
 //
-//  Created by Wolf on 16/6/3.
+//  Created by Wolf on 16/6/12.
 //  Copyright © 2016年 Vincent-Xu. All rights reserved.
 //
 
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+
+- (IBAction)btn2:(UIButton *)sender {
+    NSLog(@"btn2");
 }
 
 

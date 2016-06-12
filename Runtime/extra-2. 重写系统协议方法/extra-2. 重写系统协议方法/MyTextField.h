@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+
+typedef void (^block_id_t)(id obj);
+
 @interface MyTextField : UITextField
 
+@property (nonatomic, copy) block_id_t searchCallback;
 
 
 

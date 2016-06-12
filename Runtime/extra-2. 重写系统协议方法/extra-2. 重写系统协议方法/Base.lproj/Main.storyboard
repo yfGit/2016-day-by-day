@@ -22,8 +22,18 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Custom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="buE-YR-oNJ" customClass="MyTextField">
+                                <rect key="frame" x="56" y="179" width="151" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="System" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QhY-S4-UEC">
+                                <rect key="frame" x="56" y="293" width="151" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="System" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wTD-t9-xDr">
-                                <rect key="frame" x="56" y="222" width="151" height="30"/>
+                                <rect key="frame" x="56" y="237" width="151" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -31,8 +41,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="myTextField" destination="LZ5-M5-YNM" id="MSE-Fq-Q6V"/>
-                        <outlet property="systemTextField" destination="wTD-t9-xDr" id="MrW-kk-laU"/>
+                        <outlet property="textField_1" destination="LZ5-M5-YNM" id="E6L-QI-oQf"/>
+                        <outlet property="textField_2" destination="buE-YR-oNJ" id="Kh1-cu-cUp"/>
+                        <outlet property="textField_3" destination="wTD-t9-xDr" id="LbZ-qg-yhD"/>
+                        <outlet property="textField_4" destination="QhY-S4-UEC" id="w1g-e3-c9C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
