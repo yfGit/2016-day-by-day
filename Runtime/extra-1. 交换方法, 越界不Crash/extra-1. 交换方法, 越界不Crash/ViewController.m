@@ -27,6 +27,8 @@
 
     NSString *str = mArr[5];
 }
+- (IBAction)a:(id)sender {
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

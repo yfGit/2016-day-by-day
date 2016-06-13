@@ -26,6 +26,7 @@ typedef void(^Block)(id, NSString *, int);
 - (NSDictionary *)allMethods;
 
 
-+ (NSDictionary *)Class_allMetshods;  // 没有找到
++ (NSDictionary *)Class_allMetshods;  // class_copyMethodList 找不到 \
+                                         用 class_getClassMethod
 
 @end

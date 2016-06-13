@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "People.h"
+#import <objc/runtime.h>
+
 @interface ViewController ()
 
 
@@ -31,6 +33,8 @@
     NSLog(@"%@\n",properties);
     NSLog(@"%@\n",ivars);
     NSLog(@"%@\n",methods);
+
+
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event

@@ -28,6 +28,8 @@
 //
 //    [Car class_sing];
 }
+- (IBAction)OriginBtnAction:(OriginBtn *)sender {
+}
 
 
 

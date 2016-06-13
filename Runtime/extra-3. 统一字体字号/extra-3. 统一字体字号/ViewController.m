@@ -16,6 +16,8 @@
 @end
 
 @implementation ViewController
+- (IBAction)a:(id)sender {
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

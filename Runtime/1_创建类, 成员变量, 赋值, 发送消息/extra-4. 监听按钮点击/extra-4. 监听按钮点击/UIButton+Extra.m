@@ -22,7 +22,6 @@
         Method origin = class_getInstanceMethod([UIButton class], @selector(touchesBegan:withEvent:));
         Method target = class_getInstanceMethod([self class], @selector(cusTouchesBegan:withEvent:));
         method_exchangeImplementations(origin, target);
-
     });
 
 }
