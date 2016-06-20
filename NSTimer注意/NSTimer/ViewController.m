@@ -36,7 +36,7 @@
      Block strong->  strongSelf weak -> VC
      */
     __weak typeof(self) weakSelf = self;
-    [NSTimer ex_scheduledTimerWithTimeInterval:1 block:^id{
+    _timer = [NSTimer ex_scheduledTimerWithTimeInterval:1 block:^id{
         __strong typeof(weakSelf) strongSelf = weakSelf;
         [strongSelf stop];
         return strongSelf;
@@ -46,6 +46,8 @@
     _customView = [[CustomView alloc] initWithFrame:CGRectMake(20, 60, 100, 100)];
     _customView.backgroundColor = [UIColor redColor];
     [self.view addSubview:_customView];
+
+
 
 }
 - (void)stop
@@ -62,7 +64,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
 {
     // 当 _customView 没有其它的东西指向时才会Dealloc
-    [_customView removeFromSuperview];
+//    [_customView removeFromSuperview];
 //    _customView = nil;
     [self dismissViewControllerAnimated:YES completion:nil];
 }

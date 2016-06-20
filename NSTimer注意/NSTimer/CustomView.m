@@ -9,6 +9,12 @@
 #import "CustomView.h"
 #import "NSTimer+Extra.h"
 
+@interface CustomView  ()
+{}
+@property (nonatomic, strong) NSTimer *timer;
+@end
+
+
 @implementation CustomView
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -16,7 +22,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         __weak typeof(self) weakSelf = self;
-        [NSTimer ex_scheduledTimerWithTimeInterval:2 block:^id{
+        _timer = [NSTimer ex_scheduledTimerWithTimeInterval:2 block:^id{
             __strong typeof(weakSelf) strongSelf = weakSelf;
             [strongSelf start];
             return strongSelf;
