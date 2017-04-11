@@ -36,7 +36,7 @@ static const char associatedKey;
 //    http://blog.csdn.net/lengshengren/article/details/16886915/
 //    http://blog.csdn.net/onlyou930/article/details/9299169
 
-
+#pragma mark - NSNumber
 - (void)setAssociatedBust:(NSNumber *)associatedBust
 {
     objc_setAssociatedObject(self, &associatedKey, associatedBust, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
@@ -51,7 +51,7 @@ static const char associatedKey;
 //    objc_getAssociatedObject(self, _cmd);  // @selector(associatedBust)
 }
 
-
+#pragma mark - Block
 - (void)setAssociatedCallBack:(CodingCallBack)associatedCallBack
 {
     objc_setAssociatedObject(self, @selector(associatedCallBack), associatedCallBack, OBJC_ASSOCIATION_COPY_NONATOMIC);
@@ -62,5 +62,16 @@ static const char associatedKey;
     return objc_getAssociatedObject(self, _cmd); // 每个方法都有一个_cmd, 表示方法自身
 }
 
+#pragma mark - assign
+- (void)setPolygonType:(PolygonType)polygonType
+{
+    objc_setAssociatedObject(self, @selector(polygonType), @(polygonType), OBJC_ASSOCIATION_ASSIGN);
+}
+
+- (PolygonType)polygonType
+{
+    NSNumber *num = objc_getAssociatedObject(self, _cmd);
+    return [num intValue];
+}
 
 @end

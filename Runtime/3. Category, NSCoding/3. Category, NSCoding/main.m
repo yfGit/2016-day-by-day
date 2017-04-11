@@ -36,7 +36,8 @@ int main(int argc, char * argv[]) {
         };
         cangTeacher.associatedCallBack();
 
-
+        cangTeacher.polygonType = PolygonTypeSix;
+        NSLog(@"%ld",cangTeacher.polygonType);
 
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
